@@ -2,8 +2,8 @@ namespace DesafioPOO.Models
 {
     public class Iphone : Smartphone
     {
-        public Iphone(string numero, string modelo, string imai, string memoria)
-            : base(numero, modelo, imai, memoria)
+        public Iphone(string numero, string modelo, string imei, string memoria)
+            : base(numero, modelo, imei, memoria)
         {
             // Nenhum código adicional necessário no construtor da classe filha
         }
